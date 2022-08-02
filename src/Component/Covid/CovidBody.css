@@ -1,0 +1,16 @@
+.coviditem{
+    box-shadow: 4px 4px 3px 3px white;
+}
+
+.covidheading2{
+    display: none;
+    
+}
+@media (min-width:200px) and (max-width:610px) {
+    .covidheading{
+        display: none;
+    } 
+    .covidheading2{
+        display: block;
+    }
+}
